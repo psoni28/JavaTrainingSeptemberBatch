@@ -1,0 +1,9 @@
+package training;
+
+public class Employee {
+	
+	int employeeId;
+	
+	double salary;
+
+}

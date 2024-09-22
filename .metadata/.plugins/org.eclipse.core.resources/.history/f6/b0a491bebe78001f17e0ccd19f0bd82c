@@ -1,0 +1,13 @@
+package accessMondifiers;
+
+public class TestMainAccessMondiferDemo {
+
+	
+	private int x=10; // within this class
+	
+	public static void main(String[] args) {
+
+		TestMainAccessMondiferDemo obj1 = new TestMainAccessMondiferDemo();
+	}
+
+}

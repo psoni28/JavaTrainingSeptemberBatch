@@ -1,0 +1,23 @@
+package variablepack;
+
+public class TestMain2 {
+
+	int x; // instance/ object variable - declared inside the class which is non static
+	int y;// instance/ object variable - declared inside the class which is non static
+
+	TestMain2() {
+		x = 100;
+		y = 200;
+	}
+
+	TestMain2(int a, int b) {
+		x = a;
+		y = b;
+	}
+
+	public static void main(String[] args) {
+
+		TestMain2 obj1= new TestMain2();
+	}
+
+}

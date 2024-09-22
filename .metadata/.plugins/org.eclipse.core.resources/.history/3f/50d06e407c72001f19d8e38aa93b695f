@@ -1,0 +1,20 @@
+package training;
+
+public class Employee {
+
+	// data member
+	int employeeId = 101;
+
+	double salary = 20000;
+
+	void getSalaryInfo() {
+
+		System.out.println(salary);
+	}
+	
+	void getEmployeedId() {
+
+		System.out.println(employeeId);
+	}
+
+}

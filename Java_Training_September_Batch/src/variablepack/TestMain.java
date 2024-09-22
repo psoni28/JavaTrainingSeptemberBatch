@@ -1,0 +1,19 @@
+package variablepack;
+
+public class TestMain {
+
+	void display1() {
+		int x = 10; // local variable- declare inside the method
+		System.out.println(x);
+
+		x = x + 100;
+	}
+
+	public static void main(String[] args) {
+
+		TestMain obj1 = new TestMain();
+
+		obj1.display1();
+	}
+
+}

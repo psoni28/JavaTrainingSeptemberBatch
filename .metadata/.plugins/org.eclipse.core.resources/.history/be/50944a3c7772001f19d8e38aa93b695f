@@ -1,0 +1,21 @@
+package training;
+
+public class MethodDemo {
+
+	static void Sum() {
+		System.out.print("Execution started from sum method.......");
+
+		int a = 1000;
+		int b = 2000;
+		int sum;
+		sum = a + b;
+		System.out.print(sum);
+		
+	}
+
+	public static void main(String[] args) {
+		System.out.print("Execution started from main method.......");
+		Sum();
+	}
+
+}

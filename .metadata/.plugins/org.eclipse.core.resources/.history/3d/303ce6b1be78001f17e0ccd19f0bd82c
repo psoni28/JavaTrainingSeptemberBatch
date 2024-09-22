@@ -1,0 +1,9 @@
+package accessMondifiers;
+
+public class TestMainAccessMondiferDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package condionalpack;
+
+public class ConditionalStatementDemo {
+
+	public static void main(String[] args) {
+
+		int num=200;
+		
+		
+		
+	if(num%2==0)
+    {
+		
+    }else {
+    	
+    }
+	
+	
+	
+	}
+
+}

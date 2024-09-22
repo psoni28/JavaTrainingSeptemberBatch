@@ -1,0 +1,14 @@
+package training;
+
+public class BooleanData {
+
+	public static void main(String[] args) {
+
+		boolean flage = false;
+
+		flage = true;
+
+		System.out.println(flage);
+	}
+
+}

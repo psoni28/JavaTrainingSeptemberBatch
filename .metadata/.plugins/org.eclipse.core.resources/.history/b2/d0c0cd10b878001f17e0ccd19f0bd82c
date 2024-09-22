@@ -1,0 +1,15 @@
+package variablepack;
+
+public class TestMain {
+
+	
+	void display1()
+	{
+		int x=10; //local variable- declare inside the method
+		System.out.println(x);
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package variablepack;
+
+public class TestMain3 {
+
+	static int x;
+	static int y;
+	static {
+		x=3000;
+		y=2000;
+		
+	}
+	
+	// static variable declared inside class with static keyword
+	
+    // static variable belongs to the class
+	
+	//static variable has life with class scope
+	public static void main(String[] args) {
+
+	}
+
+}

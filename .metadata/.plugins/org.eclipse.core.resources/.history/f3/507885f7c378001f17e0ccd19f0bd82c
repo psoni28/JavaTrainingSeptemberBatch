@@ -1,0 +1,28 @@
+package condionalpack;
+
+public class SwitchCaseDemo {
+
+	public static void main(String[] args) {
+
+		int options = 2;
+
+		switch (options) {
+		case 1:
+			System.out.println("English");
+			break;
+
+		case 2:
+			System.out.println("Hindi");
+			break;
+		case 3:
+			System.out.println("Marathi");
+			break;
+
+		default:
+			System.out.println("Invalid option press");
+			break;
+		}
+
+	}
+
+}

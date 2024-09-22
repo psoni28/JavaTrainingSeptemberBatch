@@ -1,0 +1,32 @@
+package variablepack;
+
+public class TestMain3 {
+
+	static int x;
+	static int y;
+
+	static {
+		x = 3000;
+		y = 4000;
+	}
+
+	// static variable declared inside class with static keyword
+
+	// static variable belongs to the class
+
+	// static variable has life with class scope
+
+	// static variable can be access by class name
+	public static void main(String[] args) {
+
+		System.out.println(TestMain3.x);
+		System.out.println(TestMain3.y);
+		
+		
+		TestMain3 obj= new TestMain3();
+		
+		System.out.println(obj.x);
+
+	}
+
+}

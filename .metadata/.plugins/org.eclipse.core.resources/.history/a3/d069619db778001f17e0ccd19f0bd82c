@@ -1,0 +1,50 @@
+package training;
+
+public class MethodDemo {
+
+	static void sum() {
+		System.out.println("Execution started from sum method.......");
+		int a = 1000;
+		int b = 2000;
+		int sum;
+		sum = a + b;
+		System.out.print(sum);
+
+	}
+
+	static int subtraction(int a, int b) {
+
+		int minus;
+
+		minus = a - b;
+
+		return minus;
+	}
+
+	int multiplication() {
+		/// operation return
+		return 0;
+	}
+
+	static void division(int x, int y) {
+		System.out.println("Execution started from division method.......");
+
+		int divide;
+
+		divide = x / y;
+
+		System.out.println(divide);
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Execution started from main method.......");
+		// sum();
+
+		// int sub = subtraction(1000, 450);
+		// System.out.println(sub);
+
+		division(1000, 2);
+
+	}
+
+}

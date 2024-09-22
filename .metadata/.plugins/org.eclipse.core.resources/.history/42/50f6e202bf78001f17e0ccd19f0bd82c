@@ -1,0 +1,14 @@
+package accessMondifiers;
+
+public class TestMainAccessMondiferDemo {
+
+	default int x = 10; // within this class
+
+	public static void main(String[] args) {
+
+		TestMainAccessMondiferDemo obj1 = new TestMainAccessMondiferDemo();
+
+		System.out.println(obj1.x);
+	}
+
+}

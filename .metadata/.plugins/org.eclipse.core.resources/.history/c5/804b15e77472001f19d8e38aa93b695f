@@ -1,0 +1,17 @@
+package training;
+
+public class DataTypesDemo {
+
+	public static void main(String[] args) {
+
+		// DataType variableName= assigned Value for it
+
+		int a;// declaration
+
+		a = 200; // initilization of variable a
+
+		System.out.println(a);
+
+	}
+
+}

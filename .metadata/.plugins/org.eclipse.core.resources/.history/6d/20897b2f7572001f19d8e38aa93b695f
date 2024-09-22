@@ -1,0 +1,12 @@
+package training;
+
+public class BooleanData {
+
+	public static void main(String[] args) {
+
+		boolean flage = false;
+
+		System.out.println(flage);
+	}
+
+}
