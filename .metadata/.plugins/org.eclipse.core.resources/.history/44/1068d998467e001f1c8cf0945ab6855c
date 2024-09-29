@@ -1,0 +1,13 @@
+package stringPack;
+
+public class StringMethodsDemo {
+
+	public static void main(String[] args) {
+
+		String name = "learning java with selenium session";
+		
+		System.out.println(name.toLowerCase());
+
+	}
+
+}

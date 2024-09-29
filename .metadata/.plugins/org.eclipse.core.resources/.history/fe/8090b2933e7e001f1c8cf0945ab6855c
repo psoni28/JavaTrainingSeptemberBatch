@@ -1,0 +1,15 @@
+package twoDimestinalArrayPack;
+
+public class TwoDimestionalArray {
+
+	public static void main(String[] args) {
+
+		int[][] arr2 = new int[3][3];
+
+		int i = 10;
+		
+		arr2[0][0]=10;
+
+	}
+
+}

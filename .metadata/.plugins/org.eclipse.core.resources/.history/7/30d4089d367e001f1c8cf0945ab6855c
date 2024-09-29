@@ -1,0 +1,10 @@
+package operatorsPack;
+
+public class ArithmaticOperatorDemo {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

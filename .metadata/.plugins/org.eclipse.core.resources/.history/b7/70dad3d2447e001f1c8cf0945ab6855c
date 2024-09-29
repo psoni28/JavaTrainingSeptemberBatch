@@ -1,0 +1,22 @@
+package stringPack;
+
+public class StringConstantPoolDemo {
+
+	public static void main(String[] args) {
+
+		String name1 = "India";
+
+		String name2 = "India";
+
+		String name3 = new String("India");
+
+		String name4 = new String("is a great country");
+
+		System.out.println(name1 == name3);
+
+		name1 = name1.concat(name4);
+
+		System.out.println(name1);
+	}
+
+}

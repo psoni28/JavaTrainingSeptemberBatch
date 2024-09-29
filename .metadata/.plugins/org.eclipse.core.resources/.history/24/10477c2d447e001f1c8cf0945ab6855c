@@ -1,0 +1,13 @@
+package stringPack;
+
+public class StringConstantPoolDemo {
+
+	public static void main(String[] args) {
+
+		
+		String name1="India";
+		
+		String name2="India";
+	}
+
+}

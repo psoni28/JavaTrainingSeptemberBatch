@@ -1,0 +1,18 @@
+package forEachPack;
+
+public class ForEachLoopDemo {
+
+	public static void main(String[] args) {
+
+		/*
+		 * for(DataType v1: list) {
+		 * 
+		 * }
+		 */
+
+		int[] arr = { 10, 20, 30, 40, 50 };
+		
+
+	}
+
+}

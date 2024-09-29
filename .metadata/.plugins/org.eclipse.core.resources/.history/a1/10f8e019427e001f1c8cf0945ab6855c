@@ -1,0 +1,15 @@
+package stringPack;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+
+		String name1 = "India";
+
+		String name2 = new String("India");
+
+		
+		System.out.println(name1.equals(name2));
+	}
+
+}
