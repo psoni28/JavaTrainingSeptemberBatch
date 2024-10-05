@@ -1,0 +1,19 @@
+package inheritancePack;
+
+public class ClassB extends ClassA {
+
+	int b;
+
+	ClassB() {
+		super();
+		b = 20;
+		System.out.println("class B constructor called");
+	}
+
+	public static void main(String[] args) {
+
+		ClassB obj = new ClassB();
+		obj.displayA();
+	}
+
+}

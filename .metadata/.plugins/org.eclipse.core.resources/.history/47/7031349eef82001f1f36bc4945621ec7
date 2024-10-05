@@ -1,0 +1,17 @@
+package stringbufferAndBuilderPack;
+
+public class StringBufferAndBuilderDemo {
+
+	public static void main(String[] args) {
+
+		String name = "hello world";
+
+		System.out.println("before append : " + name);
+
+		name.concat(" java");
+
+		System.out.println("after append : " + name);
+
+	}
+
+}

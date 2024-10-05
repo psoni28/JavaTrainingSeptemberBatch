@@ -1,0 +1,29 @@
+package exceptionHandlingPack;
+
+import java.io.IOException;
+
+public class CheckedExecptionDemo {
+
+	public static void method1(int age) throws IOException {
+		if (!(age > 17)) {
+			throw new IOException("invalid age for voting");
+		} else {
+			System.out.println("user can vote");
+		}
+	}
+
+	public static void method2(int age) throws IOException {
+		method1(age);
+	}
+
+	public static void main(String[] args) {
+		try {
+			method2(16);
+		} catch (RuntimeException ex) {
+
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		} catch (Exception e) {
+		}
+	}
+}

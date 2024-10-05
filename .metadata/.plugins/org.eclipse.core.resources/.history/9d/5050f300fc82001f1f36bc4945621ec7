@@ -1,0 +1,16 @@
+package inheritancePack;
+
+public class ClassA {
+
+	int a;
+
+	ClassA() {
+		a = 10;
+		System.out.println("class A constructor called");
+	}
+
+	public void displayA() {
+		System.out.println("a = " + a);
+	}
+
+}

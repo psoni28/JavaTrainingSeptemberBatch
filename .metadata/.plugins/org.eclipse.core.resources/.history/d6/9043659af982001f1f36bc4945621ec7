@@ -1,0 +1,17 @@
+package inheritancePack;
+
+public class ClassB extends ClassA {
+
+	int b;
+	
+	classB()
+	{
+		b=20;
+	}
+	public static void main(String[] args) {
+
+		ClassB obj = new ClassB();
+		obj.displayA();
+	}
+
+}

@@ -1,0 +1,12 @@
+package inheritancePack;
+
+public class ClassA {
+
+	int a;
+	
+	ClassA()
+	{
+		a=10;
+	}
+
+}

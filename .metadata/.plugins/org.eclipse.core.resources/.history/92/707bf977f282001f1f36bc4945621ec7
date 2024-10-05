@@ -1,0 +1,17 @@
+package exceptionHandlingPack;
+
+public class UncheckedException {
+
+	public static void main(String[] args) {
+
+	int x=100;
+	
+	int result;
+	
+	result= x/0;
+	
+	System.out.println("last line of my code");
+		
+	}
+
+}

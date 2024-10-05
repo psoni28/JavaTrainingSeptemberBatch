@@ -1,0 +1,9 @@
+package inheritancePack;
+
+public class SingleInheritanceDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

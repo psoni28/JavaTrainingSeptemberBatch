@@ -1,0 +1,10 @@
+package inheritancePack;
+
+public class ClassB {
+
+	public static void main(String[] args) {
+
+		ClassB obj = new ClassB();
+	}
+
+}

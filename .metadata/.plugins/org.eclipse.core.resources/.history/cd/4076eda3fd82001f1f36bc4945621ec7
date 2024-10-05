@@ -1,0 +1,21 @@
+package multilevelInheritancePack;
+
+public class ClassC extends ClassB {
+
+	int c;
+
+	ClassC() {
+
+		c=30;
+		System.out.println("class C constructor called");
+
+	}
+
+	public static void main(String[] args) {
+
+		ClassC obj3 = new ClassC();
+		
+		obj3.
+	}
+
+}
