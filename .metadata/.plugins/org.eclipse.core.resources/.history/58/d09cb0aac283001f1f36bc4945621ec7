@@ -1,0 +1,24 @@
+package abstractPack;
+
+public class Rectangle extends Shape {
+
+	double l, b;
+
+	@Override
+	public void findArea() {
+		super.area = l * b;
+		super.displayedArea();
+	}
+
+	public static void main(String[] args) {
+
+		Shape ref = new Rectangle();
+
+		ref.findArea();
+
+		// method overriding says - at run method call not on the basis type of
+		// reference
+		// but method calls type of the object
+	}
+
+}

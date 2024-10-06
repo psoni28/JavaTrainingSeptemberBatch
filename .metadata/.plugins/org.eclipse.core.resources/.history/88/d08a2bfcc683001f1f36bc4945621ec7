@@ -1,0 +1,9 @@
+package interfacePack;
+
+public class TestImplemtation implements Printable {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package abstractPack;
+
+public class Circle extends Shape {
+
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public void findArea() {
+		
+	}
+
+}

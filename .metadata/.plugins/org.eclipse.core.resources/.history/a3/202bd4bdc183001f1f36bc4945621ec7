@@ -1,0 +1,19 @@
+package abstractPack;
+
+public class Rectangle extends Shape {
+
+	double l, b;
+
+
+	@Override
+	public void findArea() {
+		super.area = l * b;
+		super.displayedArea();
+	}
+	
+	public static void main(String[] args) {
+
+		Shape ref= new Rectangle();
+	}
+
+}

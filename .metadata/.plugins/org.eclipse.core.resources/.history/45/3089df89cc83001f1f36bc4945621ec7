@@ -1,0 +1,22 @@
+package collectionFrameworkPack;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+
+		Set<String> setList= new HashSet<String>();
+		
+		setList.add(null);
+		setList.add(null);
+		setList.add("India");
+		setList.add("America");
+		setList.add("China");
+
+
+
+	}
+
+}

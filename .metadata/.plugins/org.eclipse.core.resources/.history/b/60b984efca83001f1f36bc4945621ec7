@@ -1,0 +1,29 @@
+package collectionFrameworkPack;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+
+		List<String> list = new ArrayList<String>();
+
+		list.add("India");
+		list.add("India");
+		list.add("Australia");
+		list.add("Canada");
+		list.add("Austria");
+		list.add("Barmuda");
+		list.remove(1);
+
+		for (String country : list) {
+			System.out.println(country);
+		}
+
+		// manipulation operation like insertion and deletion is slower, when using
+		// million of data
+
+	}
+
+}

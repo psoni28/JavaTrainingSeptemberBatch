@@ -1,0 +1,14 @@
+package interfacePack;
+
+public class TestImplemtation implements Printable, Runnable {
+
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public void print() {
+		System.out.println("TestImplemation print method is called");
+	}
+
+}

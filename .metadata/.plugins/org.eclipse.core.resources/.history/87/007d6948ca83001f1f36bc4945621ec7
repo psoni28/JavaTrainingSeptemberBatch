@@ -1,0 +1,25 @@
+package collectionFrameworkPack;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+
+		List<String> list = new ArrayList<String>();
+
+		list.add("India");
+		list.add("India");
+		list.add("Australia");
+		list.add("Canada");
+		list.add("Austria");
+		list.add("Barmuda");
+		
+		for(String country: list)
+		{
+			System.out.println(country);
+		}
+	}
+
+}

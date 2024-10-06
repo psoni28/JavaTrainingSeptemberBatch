@@ -1,0 +1,22 @@
+package abstractPack;
+
+public class Circle extends Shape {
+
+	double r;
+	
+	Circle()
+	{
+		r=12.32;
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public void findArea() {
+
+		super.area=3.14*this.r*this.r;
+	}
+
+}
